@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: coral;
+  vertical-align: middle;
+  line-height: 70px;
+}
+.asd {
+  width: 86%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#header_top_left {
+  background-color: grey;
+}
+#header_top_right {
+  background-color: green;
+}
+
+#logo {
+  display: inline-block;
+}
+#link_header {
+  float: right;
+}
+
+#link_header a {
+  padding: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, less than 768px) */
+@media screen and (max-width:767px) {
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width:768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width:992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width:1200px) {
+
+}
