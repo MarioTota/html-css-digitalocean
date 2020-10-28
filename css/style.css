@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 header {
+  background-color: coral;
   vertical-align: middle;
   line-height: 60px;
   font-family: 'Roboto', sans-serif;
@@ -20,24 +21,29 @@ header {
 }
 #logo img {
   height: 22px;
+  vertical-align: text-bottom;
 }
 
-#link_header {
+.link_header {
   float: right;
   font-size: 15px;
+  font-weight: 900;
 }
-#link_header a {
+.link_header a {
   padding: 0 7px;
+  margin-top: 5px;
   color: #031C4E;
   text-decoration: none;
 }
-#link_header i {
+.link_header i {
   padding: 0 2px;
   color: #031C4E;
 }
-#link_header button {
+.link_header button {
   border: 1px solid #1253fb;
   color: #1253fb;
+  margin-top: 5px;
+
 }
 
 
