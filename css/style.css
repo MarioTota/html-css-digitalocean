@@ -83,6 +83,17 @@ header {
   font-weight: 900;
   padding-top: 9%;
 }
+#header_bottom_right form input {
+  width: 86%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+#header_bottom_right form input .placeholder {
+  color: #7E7E7E;
+}
+
 /* Extra small devices (phones, less than 768px) */
 @media screen and (min-width:767px) {
 
