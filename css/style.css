@@ -119,6 +119,46 @@ header {
   color: #1c73ff;
   text-decoration: underline;
 }
+
+#customer_stories {
+  background-color: #F3F5FA;
+}
+#customer_stories .wrapper {
+  width: 80%;
+  text-align: center;
+  background-color: #F3F5FA;
+}
+#customer_stories .wrapper h5 {
+  text-transform: uppercase;
+  color: #7E7E7E;
+  padding-top: 4%;
+  padding-bottom: 3%;
+}
+#customer_stories .wrapper a {
+  color: #1c73ff;
+  padding-right: 5px;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  display: inline-block;
+}
+#customer_stories .wrapper span {
+  color: #1c73ff;
+  padding-left: 10px;
+}
+
+#deploy_scale h3,
+#deploy_scale p {
+  text-align: center;
+}
+#deploy_scale #scale {
+  width: 100px;
+  border-left: 2px solid lightgray;
+  padding: 12px;
+}
+#deploy_scale #scale span {
+  display: block;
+  color: lightgray;
+}
 /* Extra small devices (phones, less than 768px) */
 @media screen and (max-width:767px) {
 
@@ -136,6 +176,17 @@ header {
   #header_bottom_right #block_white {
     margin-bottom: 14%;
   }
+
+  #customer_stories .wrapper {
+    width: 95%;
+  }
+  #customer_stories .wrapper h5 {
+    font-size: 12px;
+  }
+  #customer_stories img {
+    height: 76px;
+  }
+
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -163,8 +214,27 @@ header {
   #header_bottom_right #block_white h3:last-of-type {
     padding: 0px 8%;
   }
-}
+  #header_bottom .wrapper {
+    width: 100%;
+  }
 
+  #customer_stories .wrapper {
+    width: 95%;
+  }
+  #customer_stories img {
+    height: 57px;
+  }
+  #customer_stories .wrapper a {
+    color: #1c73ff;
+    padding-right: 3px;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    font-size: 16px;
+  }
+  #customer_stories .wrapper h5 {
+    padding-top: 3%;
+    padding-bottom: 0;
+  }
 /* Medium devices (desktops, 992px and up) */
 @media screen and (max-width:992px) {
 
