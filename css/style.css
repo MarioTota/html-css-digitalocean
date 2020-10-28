@@ -64,6 +64,7 @@ header {
   font-size: 24px;
   line-height: 150%;
   opacity: 0.5;
+  margin-bottom: 14%;
 }
 #header_bottom_right #block_white {
   border-radius: 5px;
@@ -71,21 +72,21 @@ header {
   margin-top: 13%;
   text-align: center;
 }
-#header_bottom_right #block_white h3:last-of-type {
-  color: #1253fb;
-  margin-top: 0;
-  font-size: 27px;
-  font-weight: 900;
-}
 #header_bottom_right #block_white h3:first-of-type {
   color: #031C4E;
   font-size: 27px;
   font-weight: 900;
   padding-top: 9%;
 }
+#header_bottom_right #block_white h3:last-of-type {
+  color: #1253fb;
+  margin-top: 0;
+  font-size: 27px;
+  font-weight: 900;
+}
 #header_bottom_right form input {
   width: 86%;
-  border: 1px solid lightgrey;
+  border: 1px solid #F5F5F5;
   border-radius: 5px;
   padding: 5px;
   margin-bottom: 10px;
@@ -93,15 +94,75 @@ header {
 #header_bottom_right form input .placeholder {
   color: #7E7E7E;
 }
-
+#header_bottom_right form button:first-of-type {
+  margin: auto;
+  width: 86%;
+  color: white;
+  background-color: #1C73FF;
+  border: 1px solid #F5F5F5;
+}
+#header_bottom_right form button:last-of-type {
+  margin: auto;
+  width: 86%;
+  color: grey;
+  margin-top: 10px;
+  background-color: white;
+  border: 1px solid #F5F5F5;
+}
+#header_bottom_right form .terms {
+  color: #031C4E;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 12px;
+}
+#header_bottom_right form .terms a {
+  color: #1c73ff;
+  text-decoration: underline;
+}
 /* Extra small devices (phones, less than 768px) */
-@media screen and (min-width:767px) {
+@media screen and (max-width:767px) {
 
+  .wrapper {
+    width: 100%;
+  }
+  #header_bottom_left h1 {
+    font-size: 32px;
+    padding-top: 19px;
+  }
+  #header_bottom_left p {
+    font-size: 18px;
+    margin-bottom: -11%;
+  }
+  #header_bottom_right #block_white {
+    margin-bottom: 14%;
+  }
 }
 
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width:768px) {
 
+  #header_bottom_left h1 {
+    font-size: 32px;
+    padding-top: 19px;
+  }
+  #header_bottom_left p {
+    font-size: 21px;
+    line-height: 150%;
+    opacity: 0.5;
+    margin-bottom: 14%;
+  }
+  #header_bottom_right #block_white {
+    margin-bottom: 13%;
+  }
+  #header_bottom_right #block_white h3:first-of-type {
+    font-size: 28px;
+    font-weight: 900;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  #header_bottom_right #block_white h3:last-of-type {
+    padding: 0px 8%;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
