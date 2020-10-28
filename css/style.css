@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 header {
-  vertical-align: middle;
-  line-height: 60px;
   font-family: 'Roboto', sans-serif;
   position: relative;
 }
@@ -23,7 +21,11 @@ header {
   height: 22px;
   vertical-align: text-bottom;
 }
-
+#header_top_left,
+#header_top_right {
+  vertical-align: middle;
+  line-height: 60px;
+}
 .link_header {
   float: right;
   font-size: 15px;
@@ -47,8 +49,40 @@ header {
 .link_header .fas.fa-bars {
   color: #1253fb;
 }
-
-
+#header_bottom {
+  background-color: #1253fb;
+}
+#header_bottom_left {
+  color: white;
+}
+#header_bottom_left h1 {
+  font-size: 58px;
+  line-height: 120%;
+  padding-top: 50px;
+}
+#header_bottom_left p {
+  font-size: 24px;
+  line-height: 150%;
+  opacity: 0.5;
+}
+#header_bottom_right #block_white {
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 13%;
+  text-align: center;
+}
+#header_bottom_right #block_white h3:last-of-type {
+  color: #1253fb;
+  margin-top: 0;
+  font-size: 27px;
+  font-weight: 900;
+}
+#header_bottom_right #block_white h3:first-of-type {
+  color: #031C4E;
+  font-size: 27px;
+  font-weight: 900;
+  padding-top: 9%;
+}
 /* Extra small devices (phones, less than 768px) */
 @media screen and (min-width:767px) {
 
