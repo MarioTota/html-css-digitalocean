@@ -202,6 +202,8 @@ h3 {
 #designed_for_developers {
   background-color: #f3f5fa;
   text-align: center;
+}
+#designed_for_developers h3 {
   padding-top: 4%;
 }
 #designed_for_developers h4 {
@@ -247,6 +249,72 @@ h3 {
   font-size: 10px;
   padding-top: 1%;
   margin-bottom: 6%;
+}
+
+#features h3 {
+  text-align: center;
+  color: #031C4E;
+  padding-top: 4%;
+  padding-bottom: 3%;
+}
+#features h5 {
+  font-weight: bold;
+}
+#features p {
+  text-align: left;
+  color: #98A2B4;
+}
+#features a {
+  color: #1c73ff;
+  padding-right: 5px;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  display: inline-block;
+}
+#features span {
+  color: #1c73ff;
+  padding-left: 10px;
+}
+#features .row {
+  padding-bottom: 4%;
+}
+#regions_container {
+  color: white;
+  background: rgb(18,10,148);
+  background: linear-gradient(0deg, rgba(18,10,148,1) 0%,
+  rgba(9,60,186,1) 100%);
+  padding-bottom: 20px;
+}
+#regions_container h3 {
+  text-align: center;
+  color: white;
+  padding-top: 65px;
+  padding-bottom: 20px;
+}
+#regions_container span {
+  display: inline-block;
+}
+#regions_container .region {
+  border-top: 1px solid grey;
+  line-height: 33px;
+}
+#regions_container .region .citys {
+  opacity: 0.5;
+}
+#regions_container .region .code {
+  text-transform: uppercase;
+}
+#regions_container .no_border {
+  border-top: none;
+}
+#regions_container .region .test_speed {
+  float: right;
+}
+#regions_container .region .test_speed a {
+  color: aqua;
+}
+#regions_container .region .code {
+  width: 85px;
 }
 /* Extra small devices (phones, less than 768px) */
 @media screen and (max-width:767px) {
@@ -316,6 +384,13 @@ h3 {
   #designed_for_developers .wrapper {
     width: 90%;
   }
+
+  #features {
+    padding-bottom: 12%;
+  }
+  #features h3 {
+    padding-left: 2%;
+  }
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -373,6 +448,9 @@ h3 {
     height: 38vh;
   }
 
+  #features .wrapper {
+    width: 100%;
+  }
 
 }
 /* Medium devices (desktops, 992px and up) */
