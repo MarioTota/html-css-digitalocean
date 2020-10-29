@@ -14,6 +14,10 @@ header {
   margin-right: auto;
 }
 
+h3 {
+  color: #031C4E;;
+}
+
 #logo {
   display: inline-block;
 }
@@ -146,18 +150,53 @@ header {
   padding-left: 10px;
 }
 
+#deploy_scale .container{
+  height: 80vh;
+}
 #deploy_scale h3,
 #deploy_scale p {
   text-align: center;
+  color: #031C4E;
 }
 #deploy_scale #scale {
-  width: 100px;
   border-left: 2px solid lightgray;
   padding: 12px;
+  display: inline-block;
+  height: 200px;
+  margin-left: 9%;
 }
 #deploy_scale #scale span {
   display: block;
-  color: lightgray;
+  color: #98A2B4;
+  line-height: 38px;
+  font-size: 20px;
+}
+#deploy_scale h3 {
+  padding-top: 4%;
+}
+#deploy_scale h4 {
+  font-size: 17px;
+  color: #98A2B4;
+  text-align: center;
+  padding-bottom: 5%;
+}
+#deploy_scale p {
+  text-align: left;
+  color: #98A2B4;
+}
+#deploy_scale img {
+  padding-bottom: 2%;
+}
+#deploy_scale h5 {
+  font-weight: bold;
+}
+#deploy_scale .deploy_block {
+  padding: 16px;
+  width: 33%;
+  float: right;
+}
+#deploy_scale .wrapper:last-child {
+  margin-bottom: 21%;
 }
 /* Extra small devices (phones, less than 768px) */
 @media screen and (max-width:767px) {
