@@ -196,7 +196,57 @@ h3 {
   float: right;
 }
 #deploy_scale .wrapper:last-child {
-  margin-bottom: 21%;
+  margin-bottom: 18%;
+}
+
+#designed_for_developers {
+  background-color: #f3f5fa;
+  text-align: center;
+  padding-top: 4%;
+}
+#designed_for_developers h4 {
+  font-size: 17px;
+  color: #98A2B4;
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+#designed_for_developers .img {
+  width: 450px;
+  position: relative;
+  margin: auto;
+  padding-bottom: 1%;
+}
+#designed_for_developers img {
+  width: 370px;
+}
+#designed_for_developers .img i:first-child {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  color: #98A2B4;
+  font-size: 35px;
+  font-weight: bold;
+}
+#designed_for_developers .img i:last-child {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  font-size: 35px;
+  font-weight: bold;
+  color: #031C4E;
+}
+#designed_for_developers span {
+  color: #031C4E;
+  display: block;
+  font-weight: 500;
+}
+#designed_for_developers .fas.fa-circle,
+#designed_for_developers .far.fa-circle{
+  color: #1253fb;
+  font-size: 10px;
+  padding-top: 1%;
+  margin-bottom: 6%;
 }
 /* Extra small devices (phones, less than 768px) */
 @media screen and (max-width:767px) {
@@ -226,6 +276,46 @@ h3 {
     height: 76px;
   }
 
+  #deploy_scale .deploy_block {
+    width: 100%;
+    margin: auto;
+  }
+  #deploy_scale #scale {
+    height: 167px;
+    margin-left: 4%;
+  }
+  #deploy_scale #scale span {
+    line-height: 31px;
+    font-size: 13px;
+  }
+  #deploy_scale .wrapper:last-child {
+    height: 103vh;
+  }
+  #designed_for_developers img {
+    width: 256px;
+  }
+  #designed_for_developers .img {
+    width: 265px;
+    position: relative;
+    margin: auto;
+    padding-bottom: 1%;
+  }
+  #designed_for_developers .img i {
+    display: none;
+  }
+  #designed_for_developers span {
+    padding-top: 4%;
+    padding-bottom: 17%;
+  }
+  #designed_for_developers .fas.fa-circle {
+    margin-bottom: 13%;
+  }
+  #designed_for_developers .img {
+    padding-top: 14%;
+  }
+  #designed_for_developers .wrapper {
+    width: 90%;
+  }
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -274,9 +364,24 @@ h3 {
     padding-top: 3%;
     padding-bottom: 0;
   }
+
+  #deploy_scale #scale {
+    height: 21vh;
+    margin-top: 5%;
+  }
+  #deploy_scale .wrapper:last-child {
+    height: 38vh;
+  }
+
+
+}
 /* Medium devices (desktops, 992px and up) */
 @media screen and (max-width:992px) {
 
+  #designed_for_developers span {
+    padding-top: 2%;
+    padding-bottom: 10%;
+  }
 
 }
 
