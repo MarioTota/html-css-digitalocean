@@ -303,8 +303,10 @@ h3 {
 }
 #regions_container .region .code {
   text-transform: uppercase;
+  padding-right: 40px;
 }
-#regions_container .no_border {
+#regions_container .no_border_a,
+#regions_container .no_border_b {
   border-top: none;
 }
 #regions_container .region .test_speed {
@@ -313,8 +315,11 @@ h3 {
 #regions_container .region .test_speed a {
   color: aqua;
 }
-#regions_container .region .code {
-  width: 85px;
+#regions_container .container {
+  width: 100%;
+}
+#regions_container h3 {
+  font-size: 34px;
 }
 /* Extra small devices (phones, less than 768px) */
 @media screen and (max-width:767px) {
@@ -391,6 +396,16 @@ h3 {
   #features h3 {
     padding-left: 2%;
   }
+
+  #regions_container h3 {
+    padding: 0 2px;
+  }
+  #regions_container span {
+    font-size: 10px;
+  }
+  #regions_container .container {
+    padding-bottom: 20px;
+  }
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -451,6 +466,9 @@ h3 {
   #features .wrapper {
     width: 100%;
   }
+  #regions_container .col-sm-12 {
+    /* width: 80%; */
+  }
 
 }
 /* Medium devices (desktops, 992px and up) */
@@ -460,7 +478,9 @@ h3 {
     padding-top: 2%;
     padding-bottom: 10%;
   }
-
+  #regions_container .no_border_b {
+    margin-top: 20px;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
