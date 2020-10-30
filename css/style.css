@@ -166,9 +166,6 @@ h3 {
 /* /blocco 6 loghi */
 
 /* blocco deploy con i 5 blocchi */
-#deploy_scale .wrapper:last-child {
-  width: 75%;
-}
 #deploy_scale .deploy_block {
   padding: 16px;
   width: 33%;
@@ -179,6 +176,12 @@ h3 {
   padding: 12px;
   display: inline-block;
   margin-left: 9%;
+  float: left;
+}
+#deploy_scale .container_deploy_block {
+  float: left;
+  background-color: red;
+  display: contents;
 }
 #deploy_scale h3 {
   padding-top: 4%;
@@ -207,6 +210,7 @@ h3 {
 }
 /* /blocco deploy con i 5 blocchi */
 
+/* designed for developers */
 #designed_for_developers {
   background-color: #f3f5fa;
   text-align: center;
@@ -234,9 +238,9 @@ h3 {
   position: absolute;
   top: 50%;
   left: 0;
-  color: #98A2B4;
   font-size: 35px;
   font-weight: bold;
+  color: #98A2B4;
 }
 #designed_for_developers .img i:last-child {
   position: absolute;
@@ -247,18 +251,20 @@ h3 {
   color: #031C4E;
 }
 #designed_for_developers span {
-  color: #031C4E;
   display: block;
   font-weight: 500;
+  color: #031C4E;
 }
 #designed_for_developers .fas.fa-circle,
 #designed_for_developers .far.fa-circle{
-  color: #1253fb;
   font-size: 10px;
   padding-top: 1%;
   margin-bottom: 6%;
+  color: #1253fb;
 }
+/* /designed for developers */
 
+/* the features your business need */
 #features h3 {
   padding-top: 4%;
   padding-bottom: 3%;
@@ -284,6 +290,9 @@ h3 {
 #features .row {
   padding-bottom: 4%;
 }
+/* /the features your business need */
+
+/* 12 regions */
 #regions_container {
   color: white;
   background: rgb(18,10,148);
@@ -326,7 +335,9 @@ h3 {
 #regions_container h3 {
   font-size: 34px;
 }
+/* /12 regions */
 
+/* development teams love digitalocean */
 #development_team h3 {
   margin-top: 0;
   padding-top: 65px;
@@ -373,7 +384,9 @@ h3 {
   padding-top: 1%;
   margin-bottom: 6%;
 }
+/* /development teams love digitalocean */
 
+/* get started now */
 #get_started {
   text-align: center;
   background: rgb(18,10,148);
@@ -390,7 +403,9 @@ h3 {
 #get_started button {
   color: #1253fb;
 }
+/* get started now */
 
+/* footer */
 #footer {
   background-color: #031C4E;
   color: #808894;
@@ -423,6 +438,7 @@ h3 {
   text-decoration: none;
   color: #808894;
 }
+/* /footer */
 
 /* Extra small devices (phones, less than 768px) */
 @media screen and (max-width:767px) {
@@ -463,6 +479,9 @@ h3 {
   #deploy_scale .deploy_block {
     width: 100%;
     margin: auto;
+  }
+  #deploy_scale .wrapper:nth-child(2) {
+    width: 100%;
   }
   #deploy_scale #scale {
     margin-top: 5%;
@@ -554,6 +573,7 @@ h3 {
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width:768px) {
 
+  /* header */
   #header_bottom_left p {
     font-size: 21px;
     line-height: 150%;
@@ -577,7 +597,9 @@ h3 {
   #header_bottom .wrapper {
     width: 100%;
   }
+  /* /header */
 
+  /* customer stories con 6 immagini */
   #customer_stories .wrapper {
     width: 95%;
   }
@@ -595,17 +617,16 @@ h3 {
     padding-top: 3%;
     padding-bottom: 0;
   }
+  /* /customer stories con 6 immagini */
 
-  #deploy_scale .wrapper:last-child {
-    width: 100%;
+  /* deploy_scale */
+  #deploy_scale .deploy_block {
+    width: 40%;
   }
-
-  #features .wrapper {
-    width: 100%;
+  #deploy_scale #scale {
+    margin-left: 0;
   }
-  #regions_container .col-sm-12 {
-    /* width: 80%; */
-  }
+  /* /deploy_scale */
 
 }
 /* Medium devices (desktops, 992px and up) */
@@ -618,6 +639,7 @@ h3 {
   #regions_container .no_border_b {
     margin-top: 20px;
   }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -629,7 +651,7 @@ h3 {
     padding: 0 10px;
   }
 
-  #deploy_scale .wrapper:last-child {
+  #deploy_scale .wrapper:nth-child(2d) {
     width: 75%;
   }
 }
