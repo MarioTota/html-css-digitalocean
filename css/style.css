@@ -1,29 +1,34 @@
+/* generali */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 .clearfix {
   content: "";
   display: table;
   clear: both;
 }
-header {
-  font-family: 'Roboto', sans-serif;
-  position: relative;
-}
-
 .wrapper {
   width: 86%;
   margin: 0 auto;
 }
-
+h1 {
+  font-size: 58px;
+  line-height: 120%;
+  padding-top: 50px;
+}
 h3 {
   color: #031C4E;
   text-align: center;
 }
+/* generali */
 
 /* header */
+header {
+  position: relative;
+}
 #header_top_left #logo {
   display: inline-block;
 }
@@ -73,11 +78,6 @@ h3 {
 #header_bottom_left {
   color: white;
 }
-#header_bottom_left h1 {
-  font-size: 58px;
-  line-height: 120%;
-  padding-top: 50px;
-}
 #header_bottom_left p {
   font-size: 24px;
   line-height: 150%;
@@ -96,10 +96,10 @@ h3 {
   padding-top: 9%;
 }
 #header_bottom_right #block_white h3:last-of-type {
-  color: #1253fb;
-  margin-top: 0;
   font-size: 27px;
   font-weight: 900;
+  margin-top: 0;
+  color: #1253fb;
 }
 #header_bottom_right form input {
   width: 86%;
@@ -302,51 +302,49 @@ h3 {
   padding-bottom: 20px;
 }
 #regions_container h3 {
+  font-size: 34px;
   color: white;
   padding-top: 65px;
   padding-bottom: 20px;
 }
-#regions_container span {
-  display: inline-block;
+#regions_container .container {
+  width: 100%;
 }
 #regions_container .region {
   border-top: 1px solid grey;
   line-height: 33px;
 }
-#regions_container .region .citys {
-  opacity: 0.5;
-}
-#regions_container .region .code {
+#regions_container .code {
   text-transform: uppercase;
   padding-right: 40px;
+}
+#regions_container .citys {
+  opacity: 0.5;
+}
+#regions_container span {
+  display: inline-block;
+}
+#regions_container .test_speed {
+  float: right;
+}
+#regions_container .test_speed a {
+  color: aqua;
 }
 #regions_container .no_border_a,
 #regions_container .no_border_b {
   border-top: none;
 }
-#regions_container .region .test_speed {
-  float: right;
-}
-#regions_container .region .test_speed a {
-  color: aqua;
-}
-#regions_container .container {
-  width: 100%;
-}
-#regions_container h3 {
-  font-size: 34px;
-}
 /* /12 regioni */
 
 /* development teams love digitalocean */
+#development_team {
+  background-color: #f3f5fa;
+  text-align: center;
+}
 #development_team h3 {
   margin-top: 0;
   padding-top: 65px;
   padding-bottom: 2%;
-}
-#development_team {
-  background-color: #f3f5fa;
-  text-align: center;
 }
 #development_team .img {
   width: 450px;
@@ -426,18 +424,18 @@ h3 {
 #footer #copyright .grey {
   opacity: 0.5;
 }
-#footer .fila {
+#footer .footer-block {
   padding-top: 65px;
-}
-#footer .fila span a {
-  color: white;
-  padding-bottom: 5px;
-  font-size: 17px;
 }
 #footer a {
   display: block;
   text-decoration: none;
   color: #808894;
+}
+#footer span a {
+  color: white;
+  padding-bottom: 5px;
+  font-size: 17px;
 }
 /* /footer */
 
@@ -447,13 +445,13 @@ h3 {
   .wrapper {
     width: 100%;
   }
-  /* /generali */
-
-  /* header */
-  #header_bottom_left h1 {
+  h1 {
     font-size: 32px;
     padding-top: 19px;
   }
+  /* /generali */
+
+  /* header */
   #header_bottom_left p {
     font-size: 18px;
     margin-bottom: -11%;
@@ -547,7 +545,7 @@ h3 {
   }
   /* /the features your business need */
 
-/* 12 regioni */
+  /* 12 regioni */
   #regions_container h3 {
     padding-left: 2px;
     padding-right: 2px;
@@ -577,10 +575,11 @@ h3 {
     width: 240px;
   }
   /* development teams love digitalocean */
-
 }
+
 /* Small devices (tablets, 768px and down) */
 @media screen and (max-width:768px) {
+
   /* header */
   #header_bottom_left h1 {
     font-size: 32px;
@@ -651,6 +650,7 @@ h3 {
 }
 /* Medium devices (desktops, 992px and up) */
 @media screen and (max-width:992px) {
+
   /* designed for developers */
   #designed_for_developers span {
     padding-top: 2%;
@@ -667,6 +667,7 @@ h3 {
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (max-width:1200px) {
+
   /* header */
   #header_top_left,
   #header_top_right {
