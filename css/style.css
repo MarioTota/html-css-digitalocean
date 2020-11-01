@@ -25,6 +25,60 @@ h3 {
 }
 /* generali */
 
+#chat {
+  position: fixed;
+  width: 352px;
+  height: 45px;
+  z-index: 4;
+  bottom: 30px;
+  right: 30px;
+  box-sizing: border-box;
+  visibility: visible;
+}
+#square_chat {
+  width: 80%;
+  height: 45px;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgb(51, 71, 91);
+  float: left;
+  padding-left: 7px;
+  padding-top: 3px;
+  position: relative;
+  box-shadow: 4px 4px lightgray;
+}
+#square_chat i {
+  position: absolute;
+  right: -7px;
+  font-size: 23px;
+  color: white;
+}
+#chat img {
+  height: 45px;
+  float: right;
+}
+#square_chat #circle_number {
+  color: white;
+  padding: 7px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  border: 3px solid;
+  top: -4px;
+  right: -78px;
+}
+#number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  color: white;
+  font-size: 8px;
+}
+
 /* header */
 header {
   position: relative;
@@ -424,7 +478,7 @@ header {
 #footer #copyright .grey {
   opacity: 0.5;
 }
-#footer .footer-block {
+#footer .footer_block {
   padding-top: 65px;
 }
 #footer a {
@@ -681,4 +735,8 @@ header {
     width: 75%;
   }
   /* deploy and scale seamlessly */
+
+  #chat {
+    visibility: hidden;
+  }
 }
