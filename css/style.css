@@ -83,6 +83,9 @@ h3 {
 header {
   position: relative;
 }
+#header_top .wrapper {
+  width: 96%;
+}
 #header_top_left #logo {
   display: inline-block;
 }
@@ -137,7 +140,7 @@ header {
 #header_bottom_left p {
   font-size: 24px;
   line-height: 150%;
-  opacity: 0.5;
+  opacity: 0.8;
   margin-bottom: 14%;
 }
 #header_bottom_right #block_white {
@@ -173,6 +176,9 @@ header {
   color: white;
   background-color: #1C73FF;
   border: 1px solid #F5F5F5;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 0;
 }
 #header_bottom_right form button:last-of-type {
   margin: auto;
@@ -181,6 +187,16 @@ header {
   margin-top: 10px;
   background-color: white;
   border: 1px solid #F5F5F5;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 0;
+  position: relative;
+}
+#header_bottom_right form button:last-of-type img {
+  height: 17px;
+  float: left;
+  position: absolute;
+  left: 7px;
 }
 #header_bottom_right form .terms {
   color: #031C4E;
@@ -478,7 +494,7 @@ header {
   padding-top: 12px;
 }
 #footer #copyright .grey {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 #footer .footer_block {
   padding-top: 65px;
@@ -487,11 +503,17 @@ header {
   display: block;
   text-decoration: none;
   color: #808894;
+  padding: 3px 0;
+  font-weight: bold;
 }
 #footer span a {
   color: white;
   padding-bottom: 5px;
   font-size: 17px;
+}
+#footer i {
+  padding: 12px 4px;
+  font-size: 16px;
 }
 /* /footer */
 
@@ -652,7 +674,6 @@ header {
   #header_bottom_left p {
     font-size: 21px;
     line-height: 150%;
-    opacity: 0.5;
     margin-bottom: 14%;
   }
   #header_bottom_right #block_white {
