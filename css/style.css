@@ -127,7 +127,9 @@ header {
 }
 
 #header_bottom {
-  background-color: #1253fb;
+  background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #header_bottom_left {
   color: white;
